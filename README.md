@@ -197,6 +197,21 @@ Example:
 TYPE 3.0000 Hello world
 ```
 
+### WAIT
+
+Delays the macro
+
+```text
+WAIT <timestamp> <duration>
+```
+
+Example:
+
+```text
+TYPE 3.0000 1.0000
+```
+
+
 ## Why a Custom Format?
 
 NRS could have simply stored recorded actions as JSON or another existing format, but i decided on a format that's easy to script and read.
