@@ -197,20 +197,6 @@ Example:
 TYPE 3.0000 Hello world
 ```
 
-### DRAG
-
-Represents a mouse drag.
-
-```text
-DRAG <timestamp> <x1> <y1> <x2> <y2> <duration>
-```
-
-Example:
-
-```text
-DRAG 4.0000 400 300 900 600 1.25
-```
-
 ## Why a Custom Format?
 
-NRS could have simply stored recorded actions as JSON or another existing format
+NRS could have simply stored recorded actions as JSON or another existing format, but i decided on a format that's easy to script and read.
