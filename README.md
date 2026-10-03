@@ -1,8 +1,6 @@
-# NCK Replay System
+# NCK Replay System (NRS)
 
 __PYTHON VERSION 3.11 RECOMMENDED!!__
-\n
-**NRS - NCK Replay System**
 
 A lightweight, timestamp-based macro recording and replay system written in Python.
 
