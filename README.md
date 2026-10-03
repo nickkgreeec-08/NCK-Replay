@@ -208,7 +208,7 @@ WAIT <timestamp> <duration>
 Example:
 
 ```text
-TYPE 3.0000 1.0000
+WAIT 3.0000 1.0000
 ```
 
 
