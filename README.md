@@ -2,6 +2,8 @@
 
 __PYTHON VERSION 3.11 RECOMMENDED!!__
 
+> NRS is still alpha and in active development, feel free to leave suggestions and bugs so i can fix them! (I'm a solo dev so don't expect many or frequent updates!)
+
 A lightweight, timestamp-based macro recording and replay system written in Python.
 
 NRS records keyboard and mouse input and converts it into a custom `.rep` replay format that can later be interpreted and executed by the NRS runtime.
