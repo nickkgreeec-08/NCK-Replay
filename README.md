@@ -219,3 +219,11 @@ WAIT 3.0000 1.0000
 ## Why a Custom Format?
 
 NRS could have simply stored recorded actions as JSON or another existing format, but i decided on a format that's easy to script and read.
+
+## TODO
+[] Add scrolling.
+[x] ~~Turn python file into executables.~~
+[] Add a way for developers to access NRS through python easily.
+[] Add even more OpCodes.
+[] Add interfaces.
+[] Fix bugs.
