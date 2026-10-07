@@ -1,6 +1,6 @@
 # NCK Replay System (NRS)
 
-__PYTHON VERSION 3.11 RECOMMENDED!!__
+**PYTHON VERSION 3.11 RECOMMENDED!!**
 
 > NRS is still in alpha and in active development, feel free to leave suggestions and bugs so i can fix them! (I'm a solo dev so don't expect many or frequent updates!)
 
@@ -203,7 +203,7 @@ TYPE 3.0000 Hello world
 
 ### WAIT
 
-Delays the macro
+Delays the macro.
 
 ```text
 WAIT <timestamp> <duration>
@@ -215,15 +215,40 @@ Example:
 WAIT 3.0000 1.0000
 ```
 
-
 ## Why a Custom Format?
 
 NRS could have simply stored recorded actions as JSON or another existing format, but i decided on a format that's easy to script and read.
 
 ## TODO
-- [ ] Add scrolling.
-- [x] ~~Turn python file into executables.~~
-- [ ] Add a way for developers to access NRS through python easily.
-- [ ] Add even more OpCodes.
-- [ ] Add interfaces.
-- [ ] Fix bugs.
+
+### V2
+
+* [ ] Add scrolling OpCode.
+* [ ] Add mouse button hold/release OpCodes.
+* [ ] Add configurable mouse movement precision.
+* [ ] Add replay looping.
+* [ ] Add replay speed control.
+* [ ] Add pause/resume during replay.
+* [ ] Add replay metadata/version information.
+* [ ] Add `.rep` file validation.
+* [ ] Add better error messages for malformed OpCodes.
+* [ ] Add OpCode documentation directly inside the project.
+* [ ] Add recording pause/resume.
+* [ ] Add configurable recording hotkeys.
+* [ ] Add a dry-run/debug mode.
+* [ ] Add replay statistics (duration, OpCode count, etc.).
+* [ ] Improve timing accuracy.
+* [ ] Add support for comments/metadata in `.rep` files.
+* [ ] Add more keyboard aliases.
+* [ ] Add developer API for creating/replaying `.rep` files.
+* [ ] Add automated tests for OpCodes.
+* [ ] Add a V2 `.rep` format/version specification.
+* [ ] Create an OpCode registry/architecture.
+
+### General
+
+* [x] ~~Turn python file into executables.~~
+* [ ] Add a way for developers to access NRS through python easily.
+* [ ] Add even more OpCodes.
+* [ ] Add interfaces.
+* [ ] Fix bugs.
