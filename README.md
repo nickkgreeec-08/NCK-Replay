@@ -2,7 +2,7 @@
 
 __PYTHON VERSION 3.11 RECOMMENDED!!__
 
-> NRS is still alpha and in active development, feel free to leave suggestions and bugs so i can fix them! (I'm a solo dev so don't expect many or frequent updates!)
+> NRS is still in alpha and in active development, feel free to leave suggestions and bugs so i can fix them! (I'm a solo dev so don't expect many or frequent updates!)
 
 A lightweight, timestamp-based macro recording and replay system written in Python.
 
@@ -66,6 +66,8 @@ pip install keyboard mouse python-stopwatch
 ```
 
 NRS currently targets Python 3.
+
+> Theres an alternative, added in version 1.01, you can run `.\Execute` with it's respective flags without needing python. (Same goes for `Record.py`)
 
 ## Manual Scripting
 
